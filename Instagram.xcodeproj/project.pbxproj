@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4872121E25407FBB00A2C329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872121D25407FBB00A2C329 /* AppDelegate.swift */; };
 		4872122025407FBB00A2C329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872121F25407FBB00A2C329 /* SceneDelegate.swift */; };
-		4872122225407FBB00A2C329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872122125407FBB00A2C329 /* ViewController.swift */; };
 		4872122525407FBB00A2C329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4872122325407FBB00A2C329 /* Main.storyboard */; };
 		4872122725407FBC00A2C329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4872122625407FBC00A2C329 /* Assets.xcassets */; };
 		4872122A25407FBC00A2C329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4872122825407FBC00A2C329 /* LaunchScreen.storyboard */; };
 		4872123525407FBC00A2C329 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872123425407FBC00A2C329 /* InstagramTests.swift */; };
 		4872124025407FBC00A2C329 /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872123F25407FBC00A2C329 /* InstagramUITests.swift */; };
+		48943F7B2541371400766D3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48943F7A2541371400766D3A /* LoginViewController.swift */; };
+		48943F802541371C00766D3A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48943F7F2541371C00766D3A /* FeedViewController.swift */; };
 		99043548F0774D1CA5402B07 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890F918F00F5BDB8A9241756 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +40,6 @@
 		4872121A25407FBB00A2C329 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4872121D25407FBB00A2C329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4872121F25407FBB00A2C329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4872122125407FBB00A2C329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4872122425407FBB00A2C329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4872122625407FBC00A2C329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4872122925407FBC00A2C329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +50,8 @@
 		4872123B25407FBC00A2C329 /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4872123F25407FBC00A2C329 /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		4872124125407FBC00A2C329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48943F7A2541371400766D3A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		48943F7F2541371C00766D3A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		7B1FA2DAE4A8CCAB2DDCF20F /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		890F918F00F5BDB8A9241756 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7259F76D9AB8BCCC44032CA /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,8 +110,9 @@
 			children = (
 				4872121D25407FBB00A2C329 /* AppDelegate.swift */,
 				4872121F25407FBB00A2C329 /* SceneDelegate.swift */,
-				4872122125407FBB00A2C329 /* ViewController.swift */,
 				4872122325407FBB00A2C329 /* Main.storyboard */,
+				48943F7A2541371400766D3A /* LoginViewController.swift */,
+				48943F7F2541371C00766D3A /* FeedViewController.swift */,
 				4872122625407FBC00A2C329 /* Assets.xcassets */,
 				4872122825407FBC00A2C329 /* LaunchScreen.storyboard */,
 				4872122B25407FBC00A2C329 /* Info.plist */,
@@ -141,7 +144,6 @@
 				7B1FA2DAE4A8CCAB2DDCF20F /* Pods-Instagram.debug.xcconfig */,
 				D7259F76D9AB8BCCC44032CA /* Pods-Instagram.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -327,8 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4872122225407FBB00A2C329 /* ViewController.swift in Sources */,
+				48943F7B2541371400766D3A /* LoginViewController.swift in Sources */,
 				4872121E25407FBB00A2C329 /* AppDelegate.swift in Sources */,
+				48943F802541371C00766D3A /* FeedViewController.swift in Sources */,
 				4872122025407FBB00A2C329 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
