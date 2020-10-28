@@ -22,6 +22,17 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableView.dataSource = self
     }
     
+    @IBAction func onLogout(_ sender: Any) {
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        
+        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+        let delegate = windowScene?.delegate as? SceneDelegate
+        delegate?.window?.rootViewController = loginViewController
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
