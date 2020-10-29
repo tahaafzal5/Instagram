@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		482BC7792541FF740059AA0E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482BC7782541FF740059AA0E /* PostCell.swift */; };
+		48462E45254A432C00F38157 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48462E44254A432C00F38157 /* CommentCell.swift */; };
 		4872121E25407FBB00A2C329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872121D25407FBB00A2C329 /* AppDelegate.swift */; };
 		4872122025407FBB00A2C329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872121F25407FBB00A2C329 /* SceneDelegate.swift */; };
 		4872122525407FBB00A2C329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4872122325407FBB00A2C329 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		482BC7782541FF740059AA0E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		48462E44254A432C00F38157 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		4872121A25407FBB00A2C329 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4872121D25407FBB00A2C329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4872121F25407FBB00A2C329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				4872121D25407FBB00A2C329 /* AppDelegate.swift */,
 				4872121F25407FBB00A2C329 /* SceneDelegate.swift */,
 				4872122325407FBB00A2C329 /* Main.storyboard */,
+				48462E44254A432C00F38157 /* CommentCell.swift */,
 				48943F7F2541371C00766D3A /* FeedViewController.swift */,
 				482BC7782541FF740059AA0E /* PostCell.swift */,
 				48943F842541E9D000766D3A /* CameraViewController.swift */,
@@ -341,6 +344,7 @@
 				48943F802541371C00766D3A /* FeedViewController.swift in Sources */,
 				4872122025407FBB00A2C329 /* SceneDelegate.swift in Sources */,
 				482BC7792541FF740059AA0E /* PostCell.swift in Sources */,
+				48462E45254A432C00F38157 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

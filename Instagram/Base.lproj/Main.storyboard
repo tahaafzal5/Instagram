@@ -134,6 +134,41 @@
                                             <outlet property="usernameLabel" destination="nyU-ed-Lk2" id="9Bq-cM-UVc"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="Pcc-Ww-500" customClass="CommentCell" customModule="Instagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="464" width="414" height="37"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pcc-Ww-500" id="gde-0a-YnW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vps-I1-8qw">
+                                                    <rect key="frame" x="83.5" y="8" width="41.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58q-Iy-8uZ">
+                                                    <rect key="frame" x="31" y="8" width="44.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vps-I1-8qw" firstAttribute="top" secondItem="gde-0a-YnW" secondAttribute="top" constant="8" id="CWE-ZA-0g6"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="58q-Iy-8uZ" secondAttribute="bottom" constant="8" id="Grq-Wh-OHG"/>
+                                                <constraint firstItem="58q-Iy-8uZ" firstAttribute="leading" secondItem="gde-0a-YnW" secondAttribute="leading" constant="31" id="J51-Zl-mG7"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vps-I1-8qw" secondAttribute="trailing" constant="8" id="KwK-aE-qtd"/>
+                                                <constraint firstItem="vps-I1-8qw" firstAttribute="leading" secondItem="58q-Iy-8uZ" secondAttribute="trailing" constant="8" id="S7x-cq-Qmb"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="vps-I1-8qw" secondAttribute="bottom" constant="8" id="nsg-xD-jfs"/>
+                                                <constraint firstItem="58q-Iy-8uZ" firstAttribute="top" secondItem="gde-0a-YnW" secondAttribute="top" constant="8" id="st4-hL-xJY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="vps-I1-8qw" id="Unb-Is-JlT"/>
+                                            <outlet property="nameLabel" destination="58q-Iy-8uZ" id="lyt-4s-nQc"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
